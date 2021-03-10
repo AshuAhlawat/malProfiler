@@ -708,7 +708,8 @@ class Ui_MainWindow(object):
         
         
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "malProfiler"))
+	MainWindow.setWindowIcon(QtGui.QIcon("malProfiler"))
         
         #Top Bar
         self.user.setText(_translate("MainWindow", "Search First"))
